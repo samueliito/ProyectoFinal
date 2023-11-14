@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; /* Cambia el color de fondo según tus preferencias */
+    background-color: #f0f0f0; 
 }
 
 .container {
@@ -19,7 +19,7 @@ form {
 }
 
 h1 {
-    color: #333; /* Cambia el color del título según tus preferencias */
+    color: #333; 
 }
 
 .input-box {
@@ -41,7 +41,7 @@ input {
 }
 
 .btn {
-    background-color: #1286c9; /* Cambia el color del botón según tus preferencias */
+    background-color: #1286c9; 
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -50,7 +50,7 @@ input {
 }
 
 .btn:hover {
-    background-color: #0e5a94; /* Cambia el color al pasar el mouse según tus preferencias */
+    background-color: #0e5a94; 
 }
 
 .register-link {
@@ -59,10 +59,14 @@ input {
 }
 
 .register-link a {
-    color: #1286c9; /* Cambia el color del enlace según tus preferencias */
+    color: #1286c9; 
     text-decoration: none;
 }
 
 .register-link a:hover {
     text-decoration: underline;
+}
+
+body {
+    background: url(img/fondo-musical-volumetrico-clave-sol-notas-generativas-ai_169016-29575.avif);
 }
