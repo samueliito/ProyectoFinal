@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: century, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.titulo {
+    padding: 40px;
+}
+
+nav {
+    background-color: #1286c9;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #1286c9;
+}
+
+.contenido {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contenido .articulo {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.contenido .articulo h1,
+.contenido .articulo h2 {
+    margin-bottom: 10px;
+}
+
+.contenido .articulo div {
+    width: 60%;
+    padding: 15px;
+    background-color: #69b5e0;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.contenido .articulo img {
+    width: 20%;
+    border-radius: 200px;
+    margin-right: 200%;
+}
+
+.contenido .secundario {
+    width: 30%;
+}
+
+.contenido .secundario p {
+    background-color: #0a476b;
+    border-radius: 15px;
+    padding: 20px;
+    height: 600px;
+}
+
+.piedepagina {
+    background-color: #0a476b;
+    margin-top: 150px;
+    text-align: center;
+    padding: 30px;
+}
+
+.piedepagina p {
+    color: #fff;
+    padding: 90px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.piedepagina h4 {
+    color: #fff;
+    font-size: 25px;
+    margin-top: -5%;
+}
+
+body {
+    background-image: url('img/25-253416_s.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img1{
+    width: 20%;
+    border-radius: 200px;
+    margin-right: 200%; 
+}
+.img2{
+    width: 20%;
+    border-radius: 200px;
+    margin-right: 200%; /
+     }
+
+    .img3{
+    width: 20%;
+    border-radius: 200px;
+    margin-right: 200%; /* Puedes ajustar este valor según sea necesario */
+}
