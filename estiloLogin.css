@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Cambia el color de fondo según tus preferencias */
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: center;
+}
+
+h1 {
+    color: #333; /* Cambia el color del título según tus preferencias */
+}
+
+.input-box {
+    margin: 15px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #1286c9; /* Cambia el color del botón según tus preferencias */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0e5a94; /* Cambia el color al pasar el mouse según tus preferencias */
+}
+
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #1286c9; /* Cambia el color del enlace según tus preferencias */
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

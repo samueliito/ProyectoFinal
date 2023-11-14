@@ -109,9 +109,11 @@ nav a:hover {
 }
 
 body {
-    background-image: url('img/25-253416_s.jpg');
+    background-image: url('https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    margin: 0%;
 }
 .img1{
     width: 20%;
@@ -127,5 +129,5 @@ body {
     .img3{
     width: 20%;
     border-radius: 200px;
-    margin-right: 200%; /* Puedes ajustar este valor según sea necesario */
+    margin-right: 200%; /*  ajustar este valor según sea necesario */
 }
