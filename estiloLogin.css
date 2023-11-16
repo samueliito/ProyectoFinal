@@ -4,24 +4,32 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; 
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    animation: gradientAnimation 10s infinite alternate;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
 }
 
 .container {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
 }
-
 
 form {
     text-align: center;
 }
 
 h1 {
-    color: rgb(12, 96, 192) 
+    color: rgb(12, 96, 192);
 }
 
 .input-box {
@@ -43,16 +51,33 @@ input {
 }
 
 .btn {
-    background-color: #1286c9; 
+    background-color: #0e93b4;
     color: #fff;
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    background-color: transparent;
+    font-weight: semibold;
+    color: rgb(13, 13, 14);
+    font-size: 1rem;
+    padding: 1rem 1.5rem; 
+    border: 2px solid #eee; 
+    border-radius: 5rem;
     cursor: pointer;
-}
+    transition: all 1s ease; 
+    box-shadow: 5em .5rem 1rem #CCC,
+    -.5em -.5rem 1rem #fff
+    
+    }
+    button:hover {
+    box-shadow: .5em .5rem 1rem #fff
+    , -.5em - .5rem 1rem #CCC
+    }
+    button:active {
+    box-shadow: inset .2rem .2rem 1rem #fff
+    , inset - .2rem -.2rem 1rem #Ccc }
+
 
 .btn:hover {
-    background-color: #0e5a94; 
+    background-color: #1e7fd4;
 }
 
 .register-link {
@@ -61,14 +86,10 @@ input {
 }
 
 .register-link a {
-    color: #1286c9; 
+    color: #1286c9;
     text-decoration: none;
 }
 
 .register-link a:hover {
     text-decoration: underline;
-}
-
-body {
-    background: url(img/fondo-musical-volumetrico-clave-sol-notas-generativas-ai_169016-29575.avif);
 }

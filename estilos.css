@@ -12,7 +12,7 @@
 }
 
 nav {
-    background-color: #1286c9;
+    background-color: #0193ee;
 }
 
 nav ul {
@@ -129,14 +129,5 @@ nav a:hover {
     margin-right: 200%; }
 
 
-     .contenido .articulo h2,
-     .contenido .articulo h3 {
-        color: white;
-        background-color: #1286c9;
-        padding: 10px;
-        border-radius: 8px;
-        margin-bottom: 10px;
-    }
- 
-
+     
   
