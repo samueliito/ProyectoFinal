@@ -1,19 +1,23 @@
+body {
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    color: #fff; /* Cambiar el color del texto para que sea legible en el fondo */
+}
+
 * {
     padding: 0;
     margin: 0;
     font-family: century, sans-serif;
-    color: black;
     text-decoration: none;
     text-align: center;
 }
 
 .titulo {
     padding: 40px;
+    color: #000;
 }
 
 nav {
-    background-color: #0193ee;
-}
+    background-color: rgba(1, 147, 238, 0.7); }
 
 nav ul {
     display: flex;
@@ -23,7 +27,7 @@ nav ul {
 }
 
 nav h1 {
-    color: white;
+    color: #fff;
     font-size: 24px;
     margin: 0;
 }
@@ -33,17 +37,25 @@ nav ul li {
 }
 
 nav a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     padding: 10px;
     display: block;
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: #fff;
     color: #1286c9;
 }
 
+.contenido {
+    display: flex;
+    flex-direction: column; 
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    color: #000; 
+}
 .contenido {
     display: flex;
     width: 80%;
@@ -91,16 +103,16 @@ nav a:hover {
 
 .piedepagina {
     background-color: #0a476b;
-    margin-top: 150px;
+    margin-top: 350px;
     text-align: center;
-    padding: 30px;
+    padding: 60px;
 }
 
 .piedepagina p {
     color: #fff;
     padding: 90px;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2.6;
 }
 
 .piedepagina h4 {
@@ -109,25 +121,23 @@ nav a:hover {
     margin-top: -5%;
 }
 
-
-
-.img1{
-    width: 20%;
-    border-radius: 200px;
-    margin-right: 200%; 
-}
-
-.img2{
+.img1 {
     width: 20%;
     border-radius: 200px;
     margin-right: 200%;
 }
 
-.img3{
+.img2 {
     width: 20%;
     border-radius: 200px;
-    margin-right: 200%;  }
+    margin-right: 200%;
+}
+
+.img3 {
+    width: 20%;
+    border-radius: 200px;
+    margin-right: 200%;
+}
 
 
-     
- 
+

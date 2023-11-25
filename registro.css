@@ -1,13 +1,12 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     margin: 0;
     background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     animation: gradientAnimation 10s infinite alternate;
-}
+      }
 
 .container {
     background-color: #fff;
