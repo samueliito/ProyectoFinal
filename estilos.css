@@ -1,7 +1,8 @@
 body {
     background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     color: #fff; /* Cambiar el color del texto para que sea legible en el fondo */
-}
+
+    background-size: 5px 5px;  }
 
 * {
     padding: 0;
@@ -125,18 +126,42 @@ nav a:hover {
     width: 20%;
     border-radius: 200px;
     margin-right: 200%;
+    transition:
+    0.2s
+   ease;
 }
+.img1:hover{
+  transform: scale(1.1);
+}
+
 
 .img2 {
     width: 20%;
     border-radius: 200px;
     margin-right: 200%;
+    
+
+    transition:
+     0.2s
+    ease;
 }
+
+.img2:hover{
+    transform: scale(1.1);
+}
+
 
 .img3 {
     width: 20%;
     border-radius: 200px;
     margin-right: 200%;
+    transition:
+     0.2s
+    ease;
+}
+
+.img3:hover{
+    transform: scale(1.1);
 }
 
 
