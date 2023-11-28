@@ -4,9 +4,48 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding-top: 10px; /* Agregamos espacio para el nav fijo en la parte superior */
     background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     animation: gradientAnimation 10s infinite alternate;
-      }
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(1, 147, 238, 0.7);
+    z-index: 1000; /* Asegura que el nav esté en la capa superior */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #1286c9;
+}
 
 .container {
     background-color: #fff;
@@ -63,9 +102,6 @@ button:hover {
     button:active {
     box-shadow: inset .2rem .2rem 1rem #fff
     , inset - .2rem -.2rem 1rem #Ccc }
-
-
-
 
 .login-link {
     margin-top: 10px;
