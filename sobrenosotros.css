@@ -4,18 +4,27 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding-top: 10px; /* Agregamos espacio para el nav fijo en la parte superior */
+    padding-top: 10px;
     background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     animation: gradientAnimation 10s infinite alternate;
-     }
+}
 
-     nav {
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: rgba(1, 147, 238, 0.7);
-    z-index: 1000; /* Asegura que el nav esté en la capa superior */
+    z-index: 1000;
 }
 
 nav ul {
@@ -46,13 +55,36 @@ nav a:hover {
     background-color: #fff;
     color: #1286c9;
 }
+
 .content {
     padding: 20px;
 }
+
 .content h2:hover,
 .content h3:hover,
 .content p:hover {
-    color: #ec0a0a;
-    transform: translateY(-10px); /* Movemos el texto hacia arriba */
-    transition: transform 0.3s ease;     
+   
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
 }
+
+.titulo h2  {
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: #afaf11;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
