@@ -1,8 +1,12 @@
-body {
-    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    color: #1d1c1c; /* Cambiar el color del texto para que sea legible en el fondo */
 
-    background-size: 5px 5px;    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-size: 5px 5px;
+    color: #1d1c1c;
+}
 
 * {
     padding: 0;
@@ -18,7 +22,8 @@ body {
 }
 
 nav {
-    background-color: rgba(1, 147, 238, 0.7); }
+    background-color: rgba(12, 96, 148, 0.993);
+}
 
 nav ul {
     display: flex;
@@ -48,7 +53,6 @@ nav a:hover {
     background-color: #fff;
     color: #1286c9;
 }
-
 .contenido {
     display: flex;
     flex-direction: column; 
@@ -193,7 +197,7 @@ nav a:hover {
     width: 20%;
     border-radius: 200px;
      margin-right: 50%;
-    margin-left: 35%;
+    margin-left: 40%;
     transition:
      0.2s
     ease;
